@@ -52,19 +52,4 @@ public class PlayerController : MonoBehaviour
             yield return null;
         }
     }
-
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Fruit")
-    //    {
-    //        // ìØÇ∂éÌóﬁÇÃâ ï®Ç≈Ç†ÇÍÇŒçáê¨Ç∑ÇÈ
-    //        if (collision.gameObject.name == this.gameObject.name)
-    //        {
-    //            // çáê¨å„ÇÃêVÇµÇ¢â ï®Çê∂ê¨
-    //            Instantiate(_newFruitPrefab, transform.position, Quaternion.identity);
-    //            Destroy(collision.gameObject);
-    //            Destroy(this.gameObject);
-    //        }
-    //    }
-    //}
 }
