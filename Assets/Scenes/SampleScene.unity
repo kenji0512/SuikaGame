@@ -1142,9 +1142,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sprites:
-  - {fileID: 1608809603600998155, guid: 2911cc7b98165e5489c2615123bb75e5, type: 3}
-  - {fileID: 6741860688085112873, guid: f57ef79b3b5d2e045bb798ffe26b568e, type: 3}
-  - {fileID: 5574149739566709834, guid: 650194624667fd94cb73a8d0dd2a749e, type: 3}
+  - {fileID: -2413806693520163455, guid: 047c897c2ac5c304180026daba0f750e, type: 3}
+  - {fileID: -2413806693520163455, guid: 9aeec9f8589bb8f4c9e2caeb96692476, type: 3}
+  - {fileID: -2413806693520163455, guid: d6f56c87574a54948a1c958ebe188c23, type: 3}
   _number: 0
 --- !u!1 &1728252320
 GameObject:
