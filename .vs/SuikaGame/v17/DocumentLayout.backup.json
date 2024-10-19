@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vantan\\SuikaGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|c:\\users\\vantan\\suikagame\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|c:\\users\\vantan\\suikagame\\assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|C:\\Users\\vantan\\SuikaGame\\assets\\scripts\\gamemnager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemnager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|C:\\Users\\vantan\\SuikaGame\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|C:\\Users\\vantan\\SuikaGame\\assets\\scripts\\fruitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fruitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|C:\\Users\\vantan\\SuikaGame\\assets\\scripts\\next.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCC0CB-B416-A492-BA63-10C4E405CB77}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\next.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,19 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:50:15.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Next.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\Next.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Next.cs",
+              "ToolTip": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\Next.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Next.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T17:10:22.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameMnager.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\GameMnager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMnager.cs",
+              "ToolTip": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\GameMnager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMnager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T06:50:25.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FruitController.cs",
+              "DocumentMoniker": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\FruitController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FruitController.cs",
+              "ToolTip": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\FruitController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FruitController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T16:02:29.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\vantan\\SuikaGame\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T06:33:41.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-10-13T06:33:41.786Z"
             }
           ]
         }
