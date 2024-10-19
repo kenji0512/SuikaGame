@@ -99,8 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0605fbff8bfc7904297effb79c14a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _nextFruitPrefabs:
-  - {fileID: 6655577535327908185, guid: fc0f5d24f321e864e990dbce412dd4f7, type: 3}
+  _nextFruitPrefabs: {fileID: 6655577535327908185, guid: fc0f5d24f321e864e990dbce412dd4f7, type: 3}
 --- !u!58 &7599708488031069424
 CircleCollider2D:
   m_ObjectHideFlags: 0
