@@ -920,7 +920,6 @@ GameObject:
   - component: {fileID: 1457823081}
   - component: {fileID: 1457823084}
   - component: {fileID: 1457823085}
-  - component: {fileID: 1457823086}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1057,33 +1056,6 @@ MonoBehaviour:
   - {fileID: 1608809603600998155, guid: 2911cc7b98165e5489c2615123bb75e5, type: 3}
   - {fileID: 6741860688085112873, guid: f57ef79b3b5d2e045bb798ffe26b568e, type: 3}
   - {fileID: 5574149739566709834, guid: 650194624667fd94cb73a8d0dd2a749e, type: 3}
---- !u!50 &1457823086
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457823080}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!1 &1508372078
 GameObject:
   m_ObjectHideFlags: 0
