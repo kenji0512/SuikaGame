@@ -25,15 +25,28 @@ public class PlayerController : MonoBehaviour
         _moveInput.x = Input.GetAxis("Horizontal");
         _moveInput.y = 0;
         transform.position += (Vector3)(_moveInput * _moveSpeed * Time.deltaTime);
+        // プレイヤーの位置を制限
+        LimitPlayerPosition();
 
         // Fire1ボタンが押されたときに果物を生成
         if (Input.GetButtonDown("Fire1") && _nextFluitComponent != null)
         {
-            Instantiate(_fluit[_nextFluitComponent._number], this.transform.position, this.transform.rotation);
+            Vector2 spawnPosition = new Vector2(transform.position.x + 0.5f, transform.position.y);
+            Instantiate(_fluit[_nextFluitComponent._number], spawnPosition, this.transform.rotation);
             _nextFluitComponent.Change();
         }
     }
+    private void LimitPlayerPosition()
+    {
+        // プレイヤーの位置を制限する柱の境界を設定
+        float leftBoundary = -4.48f; // 左の柱の位置（例）
+        float rightBoundary = 4.19f; // 右の柱の位置（例）
 
+        // プレイヤーの位置を制限
+        Vector3 position = transform.position;
+        position.x = Mathf.Clamp(position.x, leftBoundary, rightBoundary);
+        transform.position = position;
+    }
     // マウスクリック時に移動を開始する
     void OnMouseDown()
     {

@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameMnager : MonoBehaviour
 {
-    public Text _scoreTxet;
+    public Text _scoreText;
     public GameObject _gameoverPanel;
     public int _score = 0;
     private bool _isGameOver = false;
@@ -34,12 +35,17 @@ public class GameMnager : MonoBehaviour
     } 
     void UpdateScoreText()
     {
-        _scoreTxet.text = "Score" + _score.ToString();
+        _scoreText.text = "Score" + "\n" +_score.ToString();
     }
     public void GameOver()
     {
         _isGameOver = true;
         _gameoverPanel.SetActive(true);
+        Invoke("LoadGameOverSene", 2f);
+    }
+    public void LoadGameOverScene()
+    {
+        SceneManager.LoadScene("GameOverScene");
     }
     void RestartGame()
     {
