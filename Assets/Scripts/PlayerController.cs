@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     private void LimitPlayerPosition()
     {
         // プレイヤーの位置を制限する柱の境界を設定
-        float leftBoundary = -4.48f; // 左の柱の位置（例）
+        float leftBoundary = -5.5f; // 左の柱の位置（例）
         float rightBoundary = 4.19f; // 右の柱の位置（例）
 
         // プレイヤーの位置を制限
