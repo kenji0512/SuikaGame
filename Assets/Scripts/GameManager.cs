@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameMnager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     public Text _scoreText;
     public GameObject _gameoverPanel;
@@ -18,16 +18,16 @@ public class GameMnager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (_isGameOver)
-        {
-            if (Input.GetButton("Space"))
-            {
-                RestartGame();
-            }
-        }
-    }
+    //void Update()
+    //{
+    //    if (_isGameOver)
+    //    {
+    //        if (Input.GetButton("Space"))
+    //        {
+    //            RestartGame();
+    //        }
+    //    }
+    //}
     public void AddScore(int point)
     {
         _score += point;
@@ -40,15 +40,16 @@ public class GameMnager : MonoBehaviour
     public void GameOver()
     {
         _isGameOver = true;
-        _gameoverPanel.SetActive(true);
-        Invoke("LoadGameOverSene", 2f);
+        //_gameoverPanel.SetActive(true);
+        Invoke("LoadGameOverSene", 0.1f);
+        LoadGameOverScene();
     }
     public void LoadGameOverScene()
     {
-        SceneManager.LoadScene("GameOverScene");
+        SceneManager.LoadScene("LoadGameOverSene");
     }
-    void RestartGame()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-    }
+    //void RestartGame()
+    //{
+    //    UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    //}
 }
