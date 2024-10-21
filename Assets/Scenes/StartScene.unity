@@ -707,8 +707,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChangeScene: {fileID: 0}
   StartScene: {fileID: 929452220}
+  SceneA: MainGameScene
   GameScene: {fileID: 0}
-  Scene: MainGameScene
+  SceneB: 
   _loadingUI: {fileID: 0}
   _slider: {fileID: 0}
 --- !u!4 &2114248397
